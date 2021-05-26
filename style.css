@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+background-color: aquamarine;    
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: cadetblue;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 915px;
+}
+
+button:hover {
+    background-color:rgb(10, 134, 66);
+    color: yellow;
+}
